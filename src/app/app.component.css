@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.nav-settings {
+    background-color: white;
+    color: black;
+}
+
+nav ul li a {
+    font-weight: 500;
+}
+
+.style-active-link{
+    color: #007bff;
+    font-weight: 600;
+    border-bottom: #007bff 2px solid;
+}
+
+.div-outlet{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
