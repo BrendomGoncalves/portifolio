@@ -1,0 +1,51 @@
+.div-main{
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-family: 'Oswald', sans-serif;
+    }
+    h4{
+        font-family: 'Oswald', sans-serif;
+        font-size: 16pt;
+        margin: 30px 0px 10px 0px;
+        /* margin-top: 20px; */
+    }
+    .about-description{
+        /* font-family: 'Oswald', sans-serif;
+        font-size: 1.3em;
+        margin-bottom: 20px;
+        border-top: 5px solid #007bff60;
+        width: 100%;
+        text-align: center;
+        padding-top: 25px; */
+    }
+    p{
+        /* text-align: center;
+        font-size: 1em;
+        margin-bottom: 20px;
+        color: rgb(48, 48, 48); */
+    }
+    .button-contact{
+        /* width: 200px;
+        height: 50px;
+        margin-bottom: 40px; */
+    }
+}
+
+@media (max-width:425px){
+    .div-main{
+        align-items: center;
+        padding: 30px;
+        h1{
+            font-size: 22pt;
+            font-weight: bold;
+            margin: 0px 0px 10px 0px;
+        }
+        h4{
+
+        }
+    }
+}
+@media (min-width:426px) and (max-width:768px){}
+@media (min-width:769px){}
