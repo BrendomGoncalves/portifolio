@@ -1,51 +1,102 @@
-.div-main{
+.div-main {
     display: flex;
-    flex-direction: column;
 
-    h1{
+    h1 {
         font-family: 'Oswald', sans-serif;
     }
-    h4{
+
+    h4 {
         font-family: 'Oswald', sans-serif;
-        font-size: 16pt;
-        margin: 30px 0px 10px 0px;
-        /* margin-top: 20px; */
     }
-    .about-description{
-        /* font-family: 'Oswald', sans-serif;
-        font-size: 1.3em;
-        margin-bottom: 20px;
-        border-top: 5px solid #007bff60;
-        width: 100%;
-        text-align: center;
-        padding-top: 25px; */
+
+    .about-description {
+        font-family: 'Oswald', sans-serif;
     }
-    p{
-        /* text-align: center;
-        font-size: 1em;
-        margin-bottom: 20px;
-        color: rgb(48, 48, 48); */
+
+    p {
+        color: rgb(48, 48, 48);
     }
-    .button-contact{
-        /* width: 200px;
-        height: 50px;
-        margin-bottom: 40px; */
+
+    a {
+        font-weight: bold;
+        text-decoration: none;
+        color: blue;
+    }
+
+    .list-skills {
+        display: flex;
+    }
+
+    .btn-skills {
+        background-color: gray;
+        color: white;
+    }
+
+    /* HOVERS */
+    .button-contact:hover {
+        font-weight: bold;
+    }
+
+    h1:hover {
+        color: grey;
+        border-bottom: 3px solid black;
+    }
+
+    .btn-skills:hover{
+        color: gray;
+        background-color: white;
     }
 }
 
-@media (max-width:425px){
-    .div-main{
+@media (max-width:425px) {
+    .div-main {
         align-items: center;
-        padding: 30px;
-        h1{
-            font-size: 22pt;
+        padding: 20px;
+        flex-direction: column;
+
+        h1 {
+            font-size: 20pt;
             font-weight: bold;
             margin: 0px 0px 10px 0px;
+            border-bottom: 3px solid;
         }
-        h4{
 
+        h4 {
+            font-size: 18pt;
+            margin: 30px 0px 20px 0px;
+        }
+
+        p {
+            font-size: 12pt;
+            text-align: justify;
+            width: 90%;
+        }
+
+        .button-contact {
+            width: 90%;
+            height: 50px;
+        }
+
+        .list-skills {
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 100%;
+            justify-content: center;
+            padding-bottom: 100px;
+        }
+
+        .btn-skills {
+            font-size: 14pt;
+            background-color: rgb(179, 179, 179);
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            padding: 7px;
+            border: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial sans-serif;
         }
     }
 }
-@media (min-width:426px) and (max-width:768px){}
-@media (min-width:769px){}
+
+@media (min-width:426px) and (max-width:768px) {}
+
+@media (min-width:769px) {}
